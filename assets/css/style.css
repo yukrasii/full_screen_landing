@@ -1,3 +1,19 @@
+* {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #926239;
+    margin: 0%;
+    line-height: 1.6;
+    font-size: 17px;
+}  
+
 header {
-    background: url(../img/backgroung.jpg);
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;    
+
+}
+
+header>h1 {
+    padding-top: 20px;
 }
