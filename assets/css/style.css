@@ -6,6 +6,7 @@
     font-size: 17px;
     box-sizing: border-box;
     overflow-x: hidden;
+    
 }  
 
 header {
@@ -63,4 +64,14 @@ button:hover, .main-section :first-child, .articles-wrapper :nth-child(odd) {
     padding: 20px 20px;
 }
 
-
+@media screen and (max-width: 376px) {
+ 
+body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .articles-wrapper {
+        flex-direction: column;
+    }
+}
